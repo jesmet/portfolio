@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  header {
+    background: #0078ff;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  section {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+  }
+  h2 {
+    color: #0078ff;
+  }
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  .project-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  footer {
+    background: #0078ff;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Hi, I'm Jesmet Sunny 👋</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    I'm an enthusiastic developer with a passion for creating elegant and user-friendly web applications. 
+    I enjoy exploring new technologies, collaborating on innovative projects, and turning ideas into impactful solutions through code.
+  </p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <ul>
+    <li>HTML, CSS, JavaScript</li>
+    <li>Python</li>
+    <li>Git & GitHub</li>
+  </ul>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="projects">
+    <div class="project-card">
+      <h3>To-Do App ✅</h3>
+      <p>A simple to-do list web app with local storage support.</p>
+    </div>
+    <div class="project-card">
+      <h3>Calculator app ⛅</h3>
+      <p>A simple calculator web app with basic arithmetic operations.</p>
+    </div>
+    <div class="project-card">
+      <h3>Portfolio Website 🌐</h3>
+      <p>This personal portfolio you’re looking at right now!</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  <p>Email: <a href="mailto:jesmetsunny9@gmail.com">jesmetsunny9@gmail.com</a></p>
+  <p>GitHub: <a href="https://github.com/jesmet" target="_blank">https://github.com/jesmet</a></p>
+  <p>LinkedIn: <a href="https://www.linkedin.com/in/jesmet-sunny" target="_blank">https://www.linkedin.com/in/jesmet-sunny</a></p>
+</section>
+
+<footer>
+  <p>© 2025 jesmet sunny| Built with HTML/CSS</p>
+</footer>
+
+</body>
+</html>
